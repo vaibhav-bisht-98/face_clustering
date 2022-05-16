@@ -9,6 +9,12 @@ Run following command to install required libraries:
 ```
 pip install -r requirements.txt
 ```
+## How to use
+
+Use following command to run the pipeline and get a text file of the clusters and output directory with images of different faces identified.
+```
+python main.py --input_dir path/to/input_directory --make-dir
+```
 ## Command line arguments
 
 |  **Parameter** | **Default Value** | **Description**|
