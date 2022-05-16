@@ -1,7 +1,7 @@
 
 # Description
 
-Inspired by my oneplus gallery feature to automatically group photos of each individual present in the photos in my gallery app, I have tried to put together a similar ML pipeline. It uses a Face detector to get crop of the persons faces which are then passed to a Face recognition model to get featrure vectors for the detected faces. Finally I have used DBSCAN to cluster the features vector together and get groups of similar photos.
+Inspired by my oneplus gallery feature to automatically group photos of each individual present in the photos in my gallery app, I have tried to put together a similar ML pipeline. It uses a Face detector to get crop of the persons faces which are then passed to a Face recognition model to get feature vectors for the detected faces. Finally I have used DBSCAN to cluster the features vector together and get groups of similar photos.
 
 ## Setup
 
